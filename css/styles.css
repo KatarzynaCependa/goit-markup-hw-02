@@ -3,133 +3,171 @@ body {
   color: #212121;
 }
 
+:root {
+  --logo-blue: #2196f3;
+  --logo-black: #000000;
+  --logo-white: #ffffff;
+  --text-black: #212121;
+  --text-light-gray: #757575;
+  --buttons-background-gray: #f5f4fa;
+  --background-gray: #2f303a;
+}
 /* Header */
 
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--logo-black);
   text-decoration: none;
 }
 
 .logo span {
-  color: #2196f3;
+  color: var(--logo-blue);
 }
 
 .nav-list {
   list-style: none;
 }
+
 .nav-link {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--text-black);
   text-decoration: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--logo-blue);
 }
 
 .header-contact {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-light-gray);
   text-decoration: none;
 }
 
 .header-contact:hover,
 .header-contact:focus {
-  color: #2196f3;
+  color: var(--logo-blue);
 }
 
 /* Main */
 
 /* Efektywne rozwiązania */
 
-.header {
-  font-family: 'Roboto';
-  font-style: normal;
+.header-primary {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--logo-white);
 }
 
-.header-button {
-  font-family: 'Roboto';
-  font-style: normal;
+.header-primary-button {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--logo-white);
   cursor: pointer;
 }
 
-.header-button:hover,
-.header-button:focus {
-  background: #2196f3;
+.header-primary-button:hover,
+.header-primary-button:focus {
+  background: var(--logo-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+/* Nasze atuty */
+
+.header-tertiary {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-black);
+}
+
+.header-tertiary-item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-light-gray);
+}
+
+/* Czym się zajmujemy */
+/* Nasz zespół */
+
+.header-secondary {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-black);
+}
+
+.name {
+  font-weight: 500;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-black);
+}
+
+.profession {
+  font-weight: 400;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-light-gray);
 }
 
 /* Footer */
 
 .logo-footer {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--logo-white);
   text-decoration: none;
 }
 
 .logo-footer span {
-  color: #2196f3;
+  color: var(--logo-blue);
 }
 
-address {
-  font-family: 'Roboto', sans-serif;
+.address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--logo-white);
 }
 
 .footer-contact {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contact:hover,
 .footer-contact:focus {
-  color: #2196f3;
+  color: var(--logo-blue);
 }
