@@ -83,12 +83,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--logo-white);
+  background: var(--logo-blue);
   cursor: pointer;
 }
 
 .header-primary-button:hover,
 .header-primary-button:focus {
-  background: var(--logo-blue);
   box-shadow: var(--buttons-background-gray);
   border-radius: 4px;
 }
