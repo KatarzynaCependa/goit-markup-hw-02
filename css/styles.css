@@ -7,6 +7,7 @@ body {
   --logo-blue: #2196f3;
   --logo-black: #000000;
   --logo-white: #ffffff;
+  --footer-60-white: rgba(255, 255, 255, 0.6);
   --text-black: #212121;
   --text-light-gray: #757575;
   --buttons-background-gray: #f5f4fa;
@@ -88,7 +89,7 @@ body {
 .header-primary-button:hover,
 .header-primary-button:focus {
   background: var(--logo-blue);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--buttons-background-gray);
   border-radius: 4px;
 }
 
@@ -138,7 +139,7 @@ body {
 
 /* Footer */
 
-.logo-footer {
+.logo-ftr {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -148,7 +149,7 @@ body {
   text-decoration: none;
 }
 
-.logo-footer span {
+.logo-ftr span {
   color: var(--logo-blue);
 }
 
@@ -160,14 +161,55 @@ body {
   color: var(--logo-white);
 }
 
-.footer-contact {
+.footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-60-white);
+  text-decoration: none;
 }
 
-.footer-contact:hover,
-.footer-contact:focus {
+.footer:hover,
+.footer:focus {
   color: var(--logo-blue);
+}
+
+.email {
+  text-decoration: underline;
+}
+
+/* PORTFOLIO */
+
+/* Filtry */
+
+.buttons {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-black);
+  cursor: pointer;
+}
+
+.buttons:hover,
+.buttons:focus {
+  background: var(--logo-blue);
+  color: var(--logo-white);
+}
+
+/* Portfolio */
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-black);
+}
+
+.project-type {
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-light-gray);
 }
