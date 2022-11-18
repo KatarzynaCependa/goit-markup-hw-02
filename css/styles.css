@@ -87,12 +87,6 @@ body {
   cursor: pointer;
 }
 
-.header-primary-button:hover,
-.header-primary-button:focus {
-  box-shadow: var(--buttons-background-gray);
-  border-radius: 4px;
-}
-
 /* Nasze atuty */
 
 .header-tertiary {
