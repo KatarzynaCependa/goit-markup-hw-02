@@ -136,6 +136,10 @@ body {
 
 /* Footer */
 
+.background-ftr {
+  background: var(--background-gray);
+}
+
 .logo-ftr {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
